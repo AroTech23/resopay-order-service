@@ -1,0 +1,39 @@
+{
+  "name": "resopay-order-service",
+  "version": "1.0.0",
+  "description": "Order Service micro-service for ResoPay : SWE209 Assessment",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+  "start": "node src/server.js",
+  "dev": "nodemon src/server.js",
+  "test": "jest --forceExit"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AroTech23/resopay-order-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AroTech23/resopay-order-service/issues"
+  },
+  "homepage": "https://github.com/AroTech23/resopay-order-service#readme",
+  "dependencies": {
+    "amqplib": "^2.0.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "joi": "^18.2.1",
+    "pg": "^8.21.0",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
+}
