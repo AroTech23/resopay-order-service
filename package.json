@@ -9,7 +9,18 @@
   "scripts": {
   "start": "node src/server.js",
   "dev": "nodemon src/server.js",
-  "test": "jest --forceExit"
+  "test": "jest --forceExit",
+  "test:coverage": "jest --coverage --forceExit"
+},
+"jest": {
+  "testEnvironment": "node",
+  "collectCoverageFrom": [
+    "src/**/*.js"
+  ],
+  "coverageReporters": [
+    "lcov",
+    "text"
+  ]
 },
   "repository": {
     "type": "git",

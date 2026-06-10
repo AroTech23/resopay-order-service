@@ -1,0 +1,6 @@
+projectKey=resopay-order-service
+serverUrl=http://localhost:9000
+serverVersion=26.6.0.123539
+dashboardUrl=http://localhost:9000/dashboard?id=resopay-order-service
+ceTaskId=fd5230b8-a667-4922-a5a6-4c30c3e84a52
+ceTaskUrl=http://localhost:9000/api/ce/task?id=fd5230b8-a667-4922-a5a6-4c30c3e84a52
